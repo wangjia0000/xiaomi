@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding:0;
+}
+ul,ol{
+    List-style:none;
+}
+a{
+    text-decoration:none;}
+img{
+    border:0;}
+.wrapper{
+    width: 1226px;
+    margin:0 auto;
+}
+.banner{
+    height:120px;
+}
+.banner a{
+    display: block;
+    height: 120px;
+    background: url("../img/banner.jpg") no-repeat center 0;
+}
+.nav{
+    background: #333;
+    height:40px;
+}
+.main-nav li{
+    float: left;
+    height: 40px;
+    line-height: 40px;
+}
+.main-nav li a{
+    color: #b0b0b0;
+    font-size: 12px;
+}
+.main-nav li span{
+    color:#424242;
+    margin:0 5px;
+}
+.user-info{
+    float: right;
+}
+.user-info li{
+    float: left;
+    height:40px;
+    line-height: 40px;
+}
+.user-info li a{
+    color:#b0b0b0;
+    font-size: 12px;
+}
+.user-info li span{
+    margin:0 5px;
+    color:#424242;
+}
+.icon-gouwuche{
+    color:white;
+}
+.contander{
+    height:100px;
+}
+.main-contander {
+    width:49px;
+    height:49px;
+    background:orange url("../img/mi-logo.png") no-repeat center center;
+}
