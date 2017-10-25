@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function collectDigits(str) {
+        var digits="";
+        for(var i=0;i<str.length;i++){
+            var char=str.charAt(i);
+            if(  !isNaN(char) ){
+                digits=digits+char;
+            }
+        }
+        return digits;
+    }
+    console.log(collectDigits("dnidwjdwi16357gd726"));
+</script>
+</body>
+</html>

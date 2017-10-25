@@ -1,0 +1,40 @@
+<title>Title</title>
+</head>
+<body>
+<script>
+    //    for(var i=1000;i<=9990;i++) {
+    //        var fourth=Math.floor(i/1000);
+    //        var third=Math.floor(i%1000/100);
+    //        var second=Math.floor(i%100/10);
+    //        if (i%13 == 0 && fourth==second+third) {
+    //            console.log(i);
+    //        }
+    //    }
+    //    function feibonacci(n) {
+    //        if (n <= 2) {
+    //            return 1;
+    //        }
+    //        return feibonacci(n - 1) + feibonacci(n - 2);
+    //    }
+    //        console.log( feibonacci(6) );
+    function play() {
+        for (var i = 0; i < 3; i++) {
+            shuzi = Math.ceil(1 + (Math.random() * 8));
+            if (shuzi == 8) {
+                return true;
+            }
+        }
+        return false;
+    }
+    playTime=prompt("请输入要玩的次数：")
+    //    playTime=10;
+    playWin=0;
+    for(var n=0;n<playTime;n++){
+        if(play()==true){
+            playWin++;
+        }
+    }
+    console.log(playWin/playTime*100+"%");
+</script>
+</body>
+</html>

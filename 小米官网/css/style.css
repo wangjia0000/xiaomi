@@ -173,7 +173,7 @@ img{
 /*}*/
 /*.*/
 /*.one-one-sec-contander*/
-.menu-item:hover {
+.menu-item:hover sub-menu{
     display: block;
     animation: show 0.3s ease-in forwards;
 }
