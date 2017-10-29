@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+.header {
+  width: 100%;
+  height: auto;
+  background-color: #333;
+  overflow: hidden;
+  clear: both;
+}
+.header .left_nav {
+  float: left;
+}
+.header ul {
+  margin: 0 67px;
+}
+.header ul li {
+  display: inline-block;
+  margin-right: 7px;
+  line-height: 40px;
+}
+.header ul li:last-child::after {
+  display: none;
+}
+.header ul li a {
+  color: #b0b0b0;
+  font-size: 12px;
+}
+.header ul li a:hover {
+  color: #fff;
+}
+.header ul li a::after {
+  content: "|";
+  margin-left: 7px;
+  display: inline-block;
+}
+.header .user_right {
+  float: right;
+}
+.second {
+  position: relative;
+  margin: 20px 67px;
+}
+.second .logo {
+  width: 55px;
+  height: 55px;
+  background-color: #ff6700;
+  float: left;
+}
+.second .logo img {
+  margin: 3px 3px;
+}
+.second .middle_nav {
+  margin-left: 190px;
+}
+.second .middle_nav li {
+  font-size: 17px;
+  color: #333;
+  display: inline-block;
+  margin-left: 17px;
+  margin-top: 20px;
+  z-index: 100;
+}
+.second .middle_nav li:hover .bottom_list {
+  display: inline-block;
+}
+.second .middle_nav li a:hover {
+  color: red;
+}
+.second .middle_nav li #id1 {
+  margin-left: -200px;
+}
+.second .middle_nav li #id2 {
+  margin-left: -300px;
+}
+.second .middle_nav li #id3 {
+  margin-left: -350px;
+}
+.second .middle_nav li #id4 {
+  margin-left: -480px;
+}
+.second .middle_nav li #id5 {
+  margin-left: -540px;
+}
+.second .middle_nav li #id6 {
+  margin-left: -650px;
+}
+.second .middle_nav li #id7 {
+  margin-left: -730px;
+}
+.second .middle_nav li .bottom_list {
+  position: absolute;
+  top: 60px;
+  margin-left: -300px;
+  display: none;
+  width: 150%;
+  opacity: 1;
+  z-index: 100;
+  background-color: #FFFFFF;
+}
+.second .middle_nav li .bottom_list .bottom_list_item {
+  display: inline-block;
+  width: 180px;
+  height: 230px;
+}
+.second .middle_nav li .bottom_list .bottom_list_item .word {
+  font-size: 12px;
+  color: #000000;
+  margin-left: 40px;
+}
+.second .middle_nav li .bottom_list .bottom_list_item .price {
+  font-size: 12px;
+  color: #FF6700;
+  margin-left: 45px;
+}
+.second .search_right {
+  position: absolute;
+  top: 5px;
+  right: 0px;
+  float: right;
+  box-sizing: border-box;
+  width: 245px;
+  height: 50px;
+  border: 1px solid #e0e0e0;
+}
+.second .search_right:hover {
+  border-color: #B0B0B0;
+}
+.second .search_right input {
+  border: 0px;
+  margin: 15px 5px;
+  height: 18px;
+  outline: none;
+}
+/*# sourceMappingURL=header.css.map */

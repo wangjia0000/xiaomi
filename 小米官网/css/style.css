@@ -154,20 +154,34 @@ img{
     color: #ff6700;
 }
 .sub-menu{
-    background: red;
+    /*background: red;*/
     position: absolute;
     left:0px;
     top:100px;
     width:100%;
+    height: 230px;
 }
 .sub-menu li{
     float: left;
-    height:150px;
+    height:204px;
+    width:150px;
     line-height:150px;
 }
 .sub-wrapper{
-    margin-left:150px;
+    height: 150px;
+    width: 150px;
+    margin-left:40px;
+    background: orange;
 }
+#cc{
+    font-size: 12px;
+    height:20px;
+    width:204px;
+}
+/*.aa{*/
+    /*height:160px;*/
+    /*width: 110px;*/
+/*}*/
 /*.one-thi-contander a:hover{*/
     /*color:#ff6700;*/
 /*}*/
@@ -182,3 +196,89 @@ img{
         height:100px;
     }
 }
+/*.bottom_list {*/
+    /*position: absolute;*/
+    /*top: 60px;*/
+    /*margin-left: -300px;*/
+    /*display: none;*/
+    /*width: 150%;*/
+    /*opacity: 1;*/
+    /*z-index: 100;*/
+    /*background-color: #FFFFFF;*/
+/*}*/
+.second .middle_nav {
+    margin-left: 190px;
+}
+.second .middle_nav li {
+    font-size: 17px;
+    color: #333;
+    display: inline-block;
+    margin-left: 17px;
+    margin-top: 20px;
+    z-index: 100;
+}
+.second .middle_nav li:hover .bottom_list {
+    display: inline-block;
+}
+.second .middle_nav li a:hover {
+    color: red;
+}
+.second .middle_nav li #id1 {
+    margin-left: -200px;
+}
+.second .middle_nav li #id2 {
+    margin-left: -300px;
+}
+.second .middle_nav li #id3 {
+    margin-left: -350px;
+}
+.second .middle_nav li #id4 {
+    margin-left: -480px;
+}
+.second .middle_nav li #id5 {
+    margin-left: -540px;
+}
+.second .middle_nav li #id6 {
+    margin-left: -650px;
+}
+.second .middle_nav li #id7 {
+    margin-left: -730px;
+}
+.second .middle_nav li .bottom_list {
+    position: absolute;
+    top: 60px;
+    margin-left: -300px;
+    display: none;
+    width: 150%;
+    opacity: 1;
+    z-index: 100;
+    background-color: #FFFFFF;
+}
+.second .middle_nav li .bottom_list .bottom_list_item {
+    display: inline-block;
+    width: 180px;
+    height: 230px;
+}
+.second .middle_nav li .bottom_list .bottom_list_item .word {
+    font-size: 12px;
+    color: #000000;
+    margin-left: 40px;
+}
+.second .middle_nav li .bottom_list .bottom_list_item .price {
+    font-size: 12px;
+    color: #FF6700;
+    margin-left: 45px;
+}
+/*#site-info{*/
+    /*height: 166px;*/
+    /*width:1226px;*/
+/*}*/
+/*#logo-xiaomi{*/
+    /*display: block;*/
+    /*width: 55px;*/
+    /*height: 55px;*/
+    /*!*position:absolute;*!*/
+    /*!*left:85px;*!*/
+    /*!*top:25px;*!*/
+    /*background: orangered url("../img/mi-logo.png") no-repeat center center;*/
+/*}*/

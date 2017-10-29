@@ -1,0 +1,66 @@
+.photoAndNav {
+  position: relative;
+}
+.photoAndNav .navLeft {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 445px;
+  width: 234px;
+  z-index: 100;
+  padding: 15px 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  box-sizing: border-box;
+}
+.photoAndNav .navLeft .navItem {
+  height: 43px;
+  display: block;
+  width: 100%;
+}
+.photoAndNav .navLeft .navItem .navTitle {
+  display: block;
+  height: 100%;
+  line-height: 43px;
+  color: #FFF;
+  font-family: "微软雅黑";
+  font-weight: 500;
+  text-indent: 3em;
+}
+.photoAndNav .navLeft .navItem .navTitle:hover {
+  background-color: #FF6700;
+}
+.photoAndNav .navLeft .navItem .navTitle:after {
+  content: "\e65f";
+  display: block;
+  float: right;
+  margin-right: 5px;
+  font-family: "iconfont" !important;
+  font-size: 16px;
+}
+.photoAndNav .navLeft .navItem .subList {
+  display: none;
+  position: absolute;
+  left: 234px;
+  height: 100%;
+  overflow: hidden;
+  width: 710px;
+  top: 0;
+  white-space: normal;
+  background-color: #FFF;
+  font-size: 0;
+}
+.photoAndNav .navLeft .navItem .subList .subListItem {
+  display: block;
+  float: left;
+  font-size: 14px;
+  width: 234px;
+  height: 76px;
+  overflow: hidden;
+}
+.photoAndNav .navLeft .navItem:hover .subList {
+  display: block;
+}
+.photoAndNav .button.left {
+  left: 234px !important;
+}
+/*# sourceMappingURL=nav.css.map */
